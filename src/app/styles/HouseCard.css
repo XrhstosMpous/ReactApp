@@ -1,0 +1,75 @@
+.house-container {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px 16px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+}
+
+.house-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.animal {
+  color: black;
+}
+
+.house-gradient {
+  width: 450px;
+  height: 20px;
+  border-radius: 12px;
+  background: linear-gradient(
+    to right,
+    #ffffff 0%,
+    #dddddd 20%,
+    #bbbbbb 40%,
+    #888888 60%,
+    #444444 80%,
+    #000000 100%
+  );
+}
+
+.founder {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.search-traits {
+  padding: 0.5rem 1rem;
+  border: 1px solid grey;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 300px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+.traits-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.trait {
+  background-color: #444444;
+  text-align: center;
+  color: white;
+  border-radius: 8px;
+  padding: 4px 8px;
+  font-size: 14px;
+}
+
+.founder-container {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}

@@ -1,0 +1,10 @@
+.spinner {
+  display: block;
+  margin: auto;
+}
+
+.spinner-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

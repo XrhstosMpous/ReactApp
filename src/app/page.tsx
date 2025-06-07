@@ -6,6 +6,8 @@ import ClipLoader from "react-spinners/ClipLoader";
 import HouseList from "./components/HouseList";
 import "./styles/Page.css";
 
+//
+
 export default function Home() {
   const [houses, setHouses] = useState<House[]>([]);
   const [loading, setLoading] = useState(true);

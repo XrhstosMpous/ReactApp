@@ -4,6 +4,8 @@ This is a Next.js application built with React and TypeScript that fetches and d
 
 ## Features
 
+- Built with React 19 and Next.js 15
+- TypeScript support
 - Fetches house data from a REST API.
 
 - ## Getting Started
@@ -17,7 +19,6 @@ This is a Next.js application built with React and TypeScript that fetches and d
 
 1. Clone the repository:
 
-```bash
 git clone https://github.com/XrhstosMpous/ReactApp.git
 cd ReactApp
 
@@ -37,3 +38,10 @@ npm run dev
 yarn dev
 
 Open http://localhost:3000 to view it in the browser.
+
+#### 1. Clone and run the backend API
+
+git clone https://github.com/XrhstosMpous/API.git
+cd API
+npm install
+npm run dev

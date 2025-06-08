@@ -28,8 +28,8 @@ npm install
 # or
 yarn install
 
-Create a .env.local file in the root directory and add your API URL:
-http://localhost:3001/api
+Create a .env.local file in the src/app directory and add your API URL: 
+NEXT_PUBLIC_API_URL: http://localhost:3001/api
 
 Start the development server:
 

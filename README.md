@@ -29,7 +29,7 @@ npm install
 yarn install
 
 Create a .env.local file in the root directory and add your API URL:
-http://localhost:3001/api/houses
+http://localhost:3001/api
 
 Start the development server:
 
@@ -40,8 +40,6 @@ yarn dev
 Open http://localhost:3000 to view it in the browser.
 
 #### 1. Clone and run the backend API
-
+You have to clone the backend Api and follow the instructions in order to work 
 git clone https://github.com/XrhstosMpous/API.git
-cd API
-npm install
-npm run dev
+
